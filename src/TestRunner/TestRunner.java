@@ -19,7 +19,7 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 //@CucumberOptions(features={"Features"},
 //glue = {"stepDefinition"})
 
-@CucumberOptions(features = { "Features" }, glue = { "stepDefinition" }, tags = { "@navigatetoprof" })
+@CucumberOptions(features = { "Features" }, glue = { "stepDefinition" }, tags = { "@navigatetoprofile" })
 
 // @Test
 // public class TestRunner {

@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11264" started-at="2019-09-07T10:26:07Z" finished-at="2019-09-07T10:26:19Z">
+  <suite name="Default suite" duration-ms="23613" started-at="2019-10-19T05:27:08Z" finished-at="2019-10-19T05:27:32Z">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests1.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunner.TestRunner@a38c7fe]" name="feature" class="TestRunner.AbstractTestNGCucumberTests1"/>
+        <method signature="AbstractTestNGCucumberTests1.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunner.TestRunner@51b7e5df]" name="feature" class="TestRunner.AbstractTestNGCucumberTests1"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="11264" started-at="2019-09-07T10:26:07Z" finished-at="2019-09-07T10:26:19Z">
+    <test name="Default test" duration-ms="23613" started-at="2019-10-19T05:27:08Z" finished-at="2019-10-19T05:27:32Z">
       <class name="TestRunner.TestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:TestRunner.TestRunner@a38c7fe]" name="setUpClass" is-config="true" duration-ms="921" started-at="2019-09-07T10:26:07Z" finished-at="2019-09-07T10:26:08Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:TestRunner.TestRunner@51b7e5df]" name="setUpClass" is-config="true" duration-ms="1087" started-at="2019-10-19T05:27:08Z" finished-at="2019-10-19T05:27:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunner.TestRunner@a38c7fe]" name="feature" duration-ms="10059" started-at="2019-09-07T10:26:09Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-09-07T10:26:19Z">
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunner.TestRunner@51b7e5df]" name="feature" duration-ms="22157" started-at="2019-10-19T05:27:09Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-10-19T05:27:32Z">
           <params>
             <param index="0">
               <value>
@@ -26,17 +26,17 @@
             <message>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: Chrome version must be between 71 and 75
   (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 5.32 seconds
+Command duration or timeout: 11.03 seconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'JAIVYAS-PC', ip: '192.168.0.4', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+System info: host: 'JAIVYAS-PC', ip: '192.168.1.204', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
 Driver info: driver.version: ChromeDriver]]>
             </message>
             <full-stacktrace>
               <![CDATA[cucumber.runtime.CucumberException: org.openqa.selenium.SessionNotCreatedException: session not created: Chrome version must be between 71 and 75
   (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 5.32 seconds
+Command duration or timeout: 11.03 seconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'JAIVYAS-PC', ip: '192.168.0.4', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+System info: host: 'JAIVYAS-PC', ip: '192.168.1.204', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
 Driver info: driver.version: ChromeDriver
 at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 at TestRunner.AbstractTestNGCucumberTests1.feature(AbstractTestNGCucumberTests1.java:30)
@@ -67,9 +67,9 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 Caused by: org.openqa.selenium.SessionNotCreatedException: session not created: Chrome version must be between 71 and 75
   (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 5.32 seconds
+Command duration or timeout: 11.03 seconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'JAIVYAS-PC', ip: '192.168.0.4', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
+System info: host: 'JAIVYAS-PC', ip: '192.168.1.204', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_161'
 Driver info: driver.version: ChromeDriver
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -107,7 +107,7 @@ at ✽.Given invokebrowser(selenium.feature:34)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:TestRunner.TestRunner@a38c7fe]" name="tearDownClass" is-config="true" duration-ms="30" started-at="2019-09-07T10:26:19Z" finished-at="2019-09-07T10:26:19Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:TestRunner.TestRunner@51b7e5df]" name="tearDownClass" is-config="true" duration-ms="35" started-at="2019-10-19T05:27:32Z" finished-at="2019-10-19T05:27:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
